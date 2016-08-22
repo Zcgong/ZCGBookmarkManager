@@ -26,6 +26,7 @@
 		9A6579CC1D6A9416008AA441 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6579BB1D6A9416008AA441 /* View+MASAdditions.m */; };
 		9A6579CD1D6A9416008AA441 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6579BE1D6A9416008AA441 /* ViewController+MASAdditions.m */; };
 		9A6579CE1D6A9416008AA441 /* ZCGFileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6579C11D6A9416008AA441 /* ZCGFileModel.m */; };
+		9A6579D21D6A9FD4008AA441 /* ZCGTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6579D11D6A9FD4008AA441 /* ZCGTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,8 @@
 		9A6579BE1D6A9416008AA441 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		9A6579C01D6A9416008AA441 /* ZCGFileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCGFileModel.h; sourceTree = "<group>"; };
 		9A6579C11D6A9416008AA441 /* ZCGFileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCGFileModel.m; sourceTree = "<group>"; };
+		9A6579D01D6A9FD4008AA441 /* ZCGTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCGTableView.h; sourceTree = "<group>"; };
+		9A6579D11D6A9FD4008AA441 /* ZCGTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCGTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,7 @@
 		9A65795E1D6A91B5008AA441 /* ZCGBookmarkManager */ = {
 			isa = PBXGroup;
 			children = (
+				9A6579CF1D6A9FB7008AA441 /* View */,
 				9A6579A01D6A9416008AA441 /* Controller */,
 				9A6579A31D6A9416008AA441 /* Library */,
 				9A6579BF1D6A9416008AA441 /* Model */,
@@ -182,6 +186,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		9A6579CF1D6A9FB7008AA441 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A6579D01D6A9FD4008AA441 /* ZCGTableView.h */,
+				9A6579D11D6A9FD4008AA441 /* ZCGTableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -254,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A6579D21D6A9FD4008AA441 /* ZCGTableView.m in Sources */,
 				9A6579CB1D6A9416008AA441 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				9A6579C91D6A9416008AA441 /* MASViewConstraint.m in Sources */,
 				9A6579CE1D6A9416008AA441 /* ZCGFileModel.m in Sources */,
@@ -409,6 +423,7 @@
 				9A6579721D6A91B5008AA441 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

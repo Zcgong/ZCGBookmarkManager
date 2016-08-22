@@ -9,8 +9,7 @@
 #import <Cocoa/Cocoa.h>
 #import "Masonry.h"
 
-@interface ViewController : NSViewController <NSTableViewDataSource,NSTableViewDelegate>
-@property (nonatomic, strong) NSTableView *kTableview;
-@property (nonatomic, strong) NSScrollView *kScrollView;
+@interface ViewController : NSViewController 
+
 @end
 

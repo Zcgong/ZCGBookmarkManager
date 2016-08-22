@@ -8,11 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-
-
 @interface ZCGFileModel : NSObject
 @property (nonatomic, copy) NSString *name;
 @property (nonatomic, copy) NSString *url;
+@property (nonatomic, assign) NSInteger state;
 @property (nonatomic, strong) NSMutableArray *dataArray;
 - (void)getDataFromFile;
 @end

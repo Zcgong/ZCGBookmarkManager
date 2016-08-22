@@ -61,6 +61,7 @@ static NSString* folder = @"folder";
             ZCGFileModel* model = [[ZCGFileModel alloc]init];
             model.name = [dic objectForKey:@"name"];
             model.url = [dic objectForKey:url];
+            model.state = 2;
             [temparr addObject:model];
         }
     }
@@ -76,6 +77,7 @@ static NSString* folder = @"folder";
             ZCGFileModel* model = [[ZCGFileModel alloc]init];
             model.name = [[dic objectForKey:@"URIDictionary"] objectForKey:@"title"];
             model.url = [dic objectForKey:@"URLString"];
+            model.state = 2;
             [temparr addObject:model];
         }
     }
